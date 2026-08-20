@@ -1,30 +1,30 @@
 class Podiom < Formula
   desc "Thin orchestration layer for local LLM agents"
   homepage "https://github.com/Podiom/Podiom"
-  version "0.1.194"
+  version "0.1.216"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Podiom/Podiom/releases/download/v0.1.194/podiom_v0.1.194_darwin_arm64.tar.gz"
-      sha256 "c2e2834d01d3efdc8d831f1baafe4d6102ffbbbc158e2733fa9baaa9ae2ce35f"
+      url "https://github.com/Podiom/Podiom/releases/download/v0.1.216/podiom_v0.1.216_darwin_arm64.tar.gz"
+      sha256 "9a41f36b3d2bb6ccf3320eaf04ed2b7c4a33a1db7ae12b564440d41d16e65161"
     end
 
     on_intel do
-      url "https://github.com/Podiom/Podiom/releases/download/v0.1.194/podiom_v0.1.194_darwin_amd64.tar.gz"
-      sha256 "d7e324b575866785ed15eefed8239c8428299c041285c8fccd504b60fdcb35b5"
+      url "https://github.com/Podiom/Podiom/releases/download/v0.1.216/podiom_v0.1.216_darwin_amd64.tar.gz"
+      sha256 "7757b2ebb16b39cf8c33b9b4bd6ed66350d7d49cfc2279219389e07591b5f1bb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Podiom/Podiom/releases/download/v0.1.194/podiom_v0.1.194_linux_arm64.tar.gz"
-      sha256 "0c52e75c7f131c0bcfa7c0eef54c7d809fbd5bb57a380d5e36efcf678d26759e"
+      url "https://github.com/Podiom/Podiom/releases/download/v0.1.216/podiom_v0.1.216_linux_arm64.tar.gz"
+      sha256 "9bc7155f5dcdce26d7002735bbd2ab53c0c5ba999801bc9a2022193c6c8c842b"
     end
 
     on_intel do
-      url "https://github.com/Podiom/Podiom/releases/download/v0.1.194/podiom_v0.1.194_linux_amd64.tar.gz"
-      sha256 "42ff0f19e33668bf80a71e9ae0f8b6038cc79c713266bccb4133dabc47e669cf"
+      url "https://github.com/Podiom/Podiom/releases/download/v0.1.216/podiom_v0.1.216_linux_amd64.tar.gz"
+      sha256 "1102026716ba77ad479d482211e13beff1a8d5dab14cebdcdccc065aa05283cb"
     end
   end
 
